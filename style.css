@@ -1,0 +1,37 @@
+body {
+    background-color: #f5edda;
+}
+
+.header {
+    padding: 30px;
+    text-align: center;
+    background-image: url('header.jpg');
+    color: white;
+    font-size: 30px;
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1.5px solid black;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #e9cba7;
+  }
+
+  th {
+    background-color: #66462f;
+    font-size: 30px;
+    color: white;
+  }
+
+  td {
+    font-weight: bold;
+  }
